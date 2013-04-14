@@ -5,6 +5,10 @@ Fabric sample code
 
 shiumachi のブログにて紹介したFabricのサンプルコードです。
 
+今日からすぐに使える構成管理ツール Fabric 入門
+
+http://d.hatena.ne.jp/shiumachi/20130414/1365920515
+
 
 使い方
 ======
