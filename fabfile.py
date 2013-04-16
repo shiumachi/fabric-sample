@@ -42,4 +42,4 @@ def succeeded_sample():
 
 
 def sudo_user_sample():
-    print sudo("id", user=sho)
+    print sudo("id", user='sho')
