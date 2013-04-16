@@ -39,3 +39,7 @@ def succeeded_sample():
     if res.succeeded is True:
         puts("succeeded!")
         return
+
+
+def sudo_user_sample():
+    print sudo("id", user=sho)
