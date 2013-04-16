@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from fabric.api import sudo
+from fabric.api import sudo, run, puts
 
 
 #
@@ -15,7 +15,27 @@ def install_git():
 def remove_git():
     sudo("yum -y remove git")
 
-    
+
 def adduser_hoge():
     sudo("adduser hoge")
-  
+
+
+#
+# 「Fabric の run() メソッドと sudo() メソッド」用サンプルコード
+#  (permal link が決定次第挿入)
+#
+
+
+def run_error_warn_only():
+    run("hoge", warn_only=True)
+
+
+def run_error_warn_only_with_quiet():
+    run("hoge", warn_only=True, quiet=True)
+
+
+def succeeded_sample():
+    res = run("hostname", warn_only=True)
+    if res.succeeded is True:
+        puts("succeeded!")
+        return
