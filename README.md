@@ -9,6 +9,10 @@ shiumachi のブログにて紹介したFabricのサンプルコードです。
 
 http://d.hatena.ne.jp/shiumachi/20130414/1365920515
 
+Fabric の run() メソッドと sudo() メソッド
+
+http://d.hatena.ne.jp/shiumachi/20130417/1366126368
+
 
 使い方
 ======
