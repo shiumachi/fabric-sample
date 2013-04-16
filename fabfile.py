@@ -22,7 +22,7 @@ def adduser_hoge():
 
 #
 # 「Fabric の run() メソッドと sudo() メソッド」用サンプルコード
-#  (permal link が決定次第挿入)
+#  http://d.hatena.ne.jp/shiumachi/20130417/1366126368
 #
 
 
